@@ -1,5 +1,5 @@
 # Use the official Node.js 18 image based on Alpine Linux for a lightweight and efficient environment.
-From node:18-alpine 
+FROM node:18-alpine 
 
 # Set the working directory inside the container to /app. This is where the application code will be copied and executed.
 WORKDIR /app 
